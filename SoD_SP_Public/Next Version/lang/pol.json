@@ -4,48 +4,48 @@
       "multiplayer_disabled": "{Tryb Wieloosobowy jest wyłączony}\n\nAby go włączyć musisz {~Cyan}usunąć SoD_SP} z listy aktywnych modyfikacji.",
       "new_version": "Dostępna jest {~H3Cyan}Nowa Wersja SoD_SP}:\n{~H3Green}%s}\nAktualnie używasz wersji:\n{~H3Red}%s}\n\nCzy chcesz przejść do strony pobierania?",
       "prison_fusion": "{Hero Fusion} jest wyłączony.\nPlease move off the Prison and try again.",
-      "save_confirmation": "Quicksaved!",
-      "custom_save_abbreviation": "Quick",
-      "custom_abbreviation_text": "Wprowadź wartość w przedziale {od 1 do 15}, aby ustawić własną nazwę dla szybkiego zapisu."
+      "save_confirmation": "{~Highlight}Zapisano przy pomocy Szybkiego Zapisu!}",
+      "custom_save_abbreviation": "Szybki",
+      "custom_abbreviation_text": "Wprowadź wartość w przedziale {od 1 do 15}, aby ustawić własną nazwę dla Szybkiego Zapisu."
     },
     "color": {
       "dialog_title": {
         "text": "Wybór Koloru dla SoD_SP",
-        "description": "Wybierz swój kolor"
+        "description": "Wybierz własny kolor"
       },
       "adventure_map_coordinates": {
         "text": "Współrzędne mapy przygody",
-        "description": "{Współrzędne mapy przygody}\n\nThe color matching the coordinates of the mouse cursor on the Adventure Map."
+        "description": "{Współrzędne mapy przygody}\n\nKolor odpowiadający współrzędnym kursora myszy na Mapie Przygody."
       },
       "creature_hit_points": {
-        "text": "Battle creature hit points",
-        "description": "{Battle creature hit points}\n\nThe color of creature hit points under the mouse cursor during combat."
+        "text": "Punkty życia podczas bitwy",
+        "description": "{Punkty życia podczas bitwy}\n\nKolor punktów życia stworzeń pod kursorem myszy w czasie bitwy."
       },
       "slay_all_creatures_hint_color": {
-        "text": "Maximum count",
-        "description": "{Maximum count}\n\nThe color used for descriptive numbers indicating that complete annihilation or restoration will occur."
+        "text": "Maksymalna liczba",
+        "description": "{Maksymalna liczba}\n\nThe color used for descriptive numbers indicating that complete annihilation or restoration will occur."
       },
       "slay_partial_creatures_hint_color": {
         "text": "Partial count",
         "description": "{Partial count}\n\nThe color used for descriptive numbers indicating that only a partial kill or restoration will occur."
       },
       "move_sequence_hint_color": {
-        "text": "Move sequence",
-        "description": "{Move sequence}\n\nThe color used in the battlefield status bar to indicate the move order of the creature under the mouse cursor."
+        "text": "Sekwencja ruchu",
+        "description": "{Sekwencja ruchu}\n\nThe color used in the battlefield status bar to indicate the move order of the creature under the mouse cursor."
       },
       "battle_coordinates_hint_color": {
-        "text": "Battle hex coordinates",
-        "description": "{Battle hex coordinates}\n\nThe color matching the battle alpha-numeric coordinates under the mouse cursor while in combat."
+        "text": "Współrzędne heksa bitwy",
+        "description": "{Współrzędne heksa bitwy}\n\nKolor odpowiadający współrzędnym alfanumerycznym pod kursorem myszy w czasie walki."
       },
-      "color_type_modified": "Color option\n{%s}\nsuccessfully set to:\n{~%s}%s}"
+      "color_type_modified": "Kolor dla opcji \n{%s}\nzostał pomyślnie ustawiony na:\n{~%s}%s}"
     },
     "combat": {
-      "kill_verb": "zabija",
+      "kill_verb": "zabija -",
       "damage_noun": "obrażenia",
       "resurrected_hit_points": "wyleczone punkty życia",
       "resurrection_verb": "wskrzesza",
       "hit_points": "pż",
-      "kill_range": "do",
+      "kill_range": "-",
       "active_creature": "Aktywny",
       "waiting_creature": "Czeka",
       "moved_creature": "Już wykonał ruch",
@@ -53,9 +53,9 @@
       "creature_status": "Status",
       "retaliations_count": "Ilość kontrataków",
       "number_spell_charges": "Pozostało zaklęć",
-      "battlequeue_top_turret": "Top",
-      "battlequeue_mid_turret": "Keep",
-      "battlequeue_bot_turret": "Bot"
+      "battlequeue_top_turret": "Górna",
+      "battlequeue_mid_turret": "Środkowa",
+      "battlequeue_bot_turret": "Dolna"
     },
     "quickspell": {
       "target_creature": "Cel Szybkiego Zaklęcia {%d} przypisany do {%s} na {%c%d}.",
@@ -63,7 +63,7 @@
       "no_spell": "Nie posiadasz zaklęcia {%s}.",
       "new_creature": "Stworzenie zostało wskrzeszone...\nCzy chcesz przypisać je jako Cel Szybkiego Zaklęcia {%d}?",
       "set_quickspell": "Cel Szybkiego Zaklęcia {%d} przypisane do {%s}.\nCzy chcesz utrzymać Cel Szybkiego Zaklęcia {%d}?",
-      "list_spells_title": "Quick Spells List",
+      "list_spells_title": "Lista Szybkich Zaklęć",
       "reset_hint": "Reset Quick Spell {\"%d\"} target",
       "reset_target_text": "Left-click to reset Quick Spell {\"%d\"} target.",
       "reset_confirmation": "Are you sure you want to reset Quick Spell {\"%d\"} target?",
@@ -98,9 +98,9 @@
         "confirm_description": "Zaakceptuj zmiany i zamknij okno.",
         "save_description": "Zapisz bieżące opcje w {SoD_SP.ini}",
         "save_confirmation": "Czy na pewno chcesz zapisać wszystkie zmiany?",
-        "save_failed": "{Ostrzeżenie!}\n\nCoś poszło nie tak i dane nie mogły zostały zapisane.",
+        "save_failed": "{Ostrzeżenie!}\n\nCoś poszło nie tak i dane nie mogły zostać zapisane.",
         "save_success": "Wszystkie opcje zostały zapisane!",
-        "disabled_option_text": "Ta opcja była\n{~H3Cyan}zablokowana przez twórcę map}\ni nie można jej modyfikować."
+        "disabled_option_text": "Ta opcja została\n{~H3Cyan}zablokowana przez twórcę mapy}\ni nie można jej zmienić."
       },
       "options": {
         "month_of_the_plague": {
@@ -117,11 +117,11 @@
         },
         "fix_armorer_turret_bug": {
           "text": "Błąd Wież Strzelniczych",
-          "description": "{Błąd Wież Strzelniczych}\n\nOpcja ustawiona na {WŁ} powoduje redukcje (a nie wzrost) obrażeń od wież strzelniczych dla Płatnerstwa i Tarczy Powietrznej."
+          "description": "{Błąd Wież Strzelniczych}\n\nOpcja ustawiona na {WŁ} powoduje redukcje (a nie wzrost) obrażeń od Wież Strzelniczych dla Płatnerstwa i Tarczy Powietrznej."
         },
         "prevent_creature_overflow": {
           "text": "Przepełnienie oddziałów",
-          "description": "{Przepełnienie oddziałów}\n\nOpcja ustawiona na {WŁ} zapobiega przepełnieniu pojemności liczby stworzeń w oddziale. Po przekroczeniu wartości wiekszej od 32,767 liczba przyjmuje wartość ujemną i oddział staje się bezużyteczny.\n{UWAGA}: Od wersji HDmod 5.0 beta 9 jest to domyślne ustawienie, aby przywrócić {na własne ryzyko} oryginalne działanie, wyłącz tę opcje - {WYŁ}."
+          "description": "{Przepełnienie oddziałów}\n\nOpcja ustawiona na {WŁ} zapobiega przepełnieniu pojemności liczby stworzeń w oddziale. Po przekroczeniu wartości większej od 32,767 liczba przyjmuje wartość ujemną i oddział staje się bezużyteczny.\n{UWAGA}: Od wersji HDmod 5.0 beta 9 jest to domyślne ustawienie, aby przywrócić {na własne ryzyko} oryginalne działanie, wyłącz tę opcje - {WYŁ}."
         },
         "prevent_resource_overflow": {
           "text": "Przepełnienie zasobów",
@@ -144,8 +144,8 @@
           "description": "{Oryginalne RNG}\n\nOpcja ustawiona na {WŁ} przywraca oryginalne RNG (Random Numer Generator) - nawet gdy używane są opcje '{HD+}'."
         },
         "restore_original_berserk_for_ai": {
-          "text": "SI Berserk",
-          "description": "{SI Berserk}\n\nOpcja ustawiona na {WŁ} przywraca oryginalne zachowanie jednostek SI (Sztucznej Inteligencji) gdy są pod wpływem zaklęcia Berserk - nawet gdy używane są opcje '{HD+}'."
+          "text": "Berserk SI",
+          "description": "{Berserk SI}\n\nOpcja ustawiona na {WŁ} przywraca oryginalne zachowanie jednostek SI (Sztucznej Inteligencji) gdy są pod wpływem zaklęcia Berserk - nawet gdy używane są opcje '{HD+}'."
         },
         "comma_formatted_resources": {
           "text": "Format ilości zasobów",
@@ -173,7 +173,7 @@
         },
         "correct_some_ai_cheats": {
           "text": "Oszustwa SI",
-          "description": "{Oszustwa SI}\n\nOpcja ustawiona na {WŁ} powoduje, że gracze SI (Sztucznej Inteligencji) nie mogą już rzucać 'Portalu Miejskiego' na 'Przeklętej Ziemi', a także nie mogą używać 'Latania', jeśli w pierwszej kolejności nie uzyskali do niego dostępu."
+          "description": "{Oszustwa SI}\n\nOpcja ustawiona na {WŁ} powoduje, że gracze SI (Sztucznej Inteligencji) nie mogą już rzucać 'Portalu Miejskiego' ani 'Latania' na 'Przeklętej Ziemi'."
         },
         "display_extra_spell_information": {
           "text": "Informacje o Zaklęciu",
@@ -184,84 +184,84 @@
           "description": "{Współrzędne Mapy Przygody}\n\nOpcja ustawiona na {WŁ} powoduje, że współrzędne pod kursorem myszy (x,y,z) na 'Mapie Przygody' będą wyświetlane w pasku stanu u dołu ekranu."
         },
         "hide_clone_and_elementals_casualties": {
-          "text": "Real Casualties",
-          "description": "{Real Casualties}\n\nWhen turned {WŁ}, Summoned Elementals and Cloned Creatures will not be appear as Battlefield Casualties."
+          "text": "Prawdziwe straty",
+          "description": "{Prawdziwe straty}\n\nOpcja ustawiona na {WŁ} powoduje, że Przywołane Żywiołaki i Sklonowane Stworzenia nie będą pojawiać się jako ofiary na polu bitwy."
         },
         "show_quickspell_panel": {
-          "text": "Quick Spell Panel",
-          "description": "{Quick Spell Panel}\n\nWhen turned {WŁ}, the left hand side of the combat screen will display an interactive panel with your set quickspells and allows customization."
+          "text": "Panel Szybkich Zaklęć",
+          "description": "{Panel Szybkich Zaklęć}\n\nOpcja ustawiona na {WŁ} powoduje, że po lewej stronie ekranu walki zostanie wyświetlony interaktywny panel umożliwiający dostosowanie i ustawienie Szybkich Zaklęć."
         },
         "show_battlequeue_panel": {
-          "text": "Battle Queue Panel",
-          "description": "{Battle Queue Panel}\n\nWhen turned {WŁ}, the right hand side of the combat screen will display the upcoming move order of creatures on the battlefield."
+          "text": "Panel Paska Inicjatywy",
+          "description": "{Panel Paska Inicjatywy}\n\nOpcja ustawiona na {WŁ} powoduje, że po prawej stronie ekranu walki zostanie wyświetlona kolejność ruchu stworzeń na polu bitwy."
         },
         "battlequeue_position_count": {
-          "text": "Battle Queue Text",
-          "description": "{Battle Queue Text}\n\nWhen turned {WŁ}, the battlequeue displays the alpha-numeric position of the stack.\nWhen turned {WYŁ}, the battlequeue displays the number of creatures in the stack."
+          "text": "Oddziały Paska Inicjatywy",
+          "description": "{Oddziały Paska Inicjatywy}\n\nOpcja ustawiona na {WŁ} powoduje, że Pasek Inicjatywy wyświetli alfanumeryczną pozycję w oddziale.\nZaś, gdy ustawimy opcje {WYŁ}, to Pasek Inicjatywy wyświetli domyślną liczbę stworzeń w oddziale."
         },
         "correct_admirals_hat_bug": {
-          "text": "Admiral's Hat Bug",
-          "description": "{Admiral's Hat Bug}\n\nWhen turned {WŁ}, removes the possibility to generate endless movement using the Admiral's Hat."
+          "text": "Błąd Kapelusza Admirała",
+          "description": "{Błąd Kapelusza Admirała}\n\nOpcja ustawiona na {WŁ}, usuwa możliwość generowania nieskończonego ruchu przy użyciu Kapelusza Admirała."
         },
         "correct_some_movement_bugs": {
-          "text": "Movement Bugs",
-          "description": "{Movement Bugs}\n\nWhen turned {WŁ}, this option fixes some movement bugs such as retreating while on a boat, castle town's lighthouse adding movement to everyone."
+          "text": "Błąd ruchu",
+          "description": "{Błąd ruchu}\n\nOpcja ustawiona na {WŁ} naprawia niektóre błędy związane z ruchem, przy opuszczeniu łodzi czy z obiektem 'Latarnia Morska' dodającym możliwość ruchu wszystkim bohaterom."
         },
         "enable_clone_bug": {
-          "text": "Clone Bug",
-          "description": "{Clone Bug}\n\nWhen turned {WŁ}, this option re-enables the clone bug while using the '{HD+}' feature. While this is required for very few specific maps, recommended setting is off as crashes can occur while using this bug."
+          "text": "Błąd Klonowania",
+          "description": "{Błąd Klonowania}\n\nOpcja ustawiona na {WŁ}, ponownie włącza błąd klonowania podczas używania funkcji '{HD+}'. Chociaż jest to wymagane w przypadku bardzo niewielu konkretnych map, zaleca się jednak ustawienie podanej opcji na {WYŁ}, ze względu na wystąpienie awarii podczas korzystania z tego błędu."
         },
         "correct_earthquake_bug": {
-          "text": "Earthquake Bug",
-          "description": "{Earthquake Bug}\n\nWhen turned {WŁ}, this option fixes the earthquake bug which sometimes targeted units."
+          "text": "Błąd Trzęsienia Ziemi",
+          "description": "{Błąd Trzęsienia Ziemi}\n\nOpcja ustawiona na {WŁ} naprawia błąd, który powodował, że czasami celem stawały się jednostki bohatera."
         },
         "correct_repeatable_event_bug": {
-          "text": "Repeatable Event",
-          "description": "{Repeatable Event}\n\nWhen turned {WŁ}, this option prevents you from revisiting events which were flagged as 'Cancel event after first visit' in the mapeditor."
+          "text": "Powtarzalne Zdarzenie",
+          "description": "{Powtarzalne Zdarzenie}\n\nOpcja ustawiona na {WŁ} zapobiega ponownemu odwiedzaniu wydarzeń oznaczonych w edytorze map jako 'Usuń zdarzenie po pierwszej wizycie'."
         },
         "show_ai_movement_on_minimap": {
-          "text": "AI Minimap",
-          "description": "{AI Minimap}\n\nWhen turned {WŁ}, you will see where AI heroes are moving on the minimap instead of the AI shield."
+          "text": "Minimapa SI",
+          "description": "{Minimapa SI}\n\nOpcja ustawiona na {WŁ} powoduje, że zobaczymy gdzie poruszają się bohaterowie SI na minimapie zamiast na tarczy."
         },
         "correct_vanishing_upgraded_stack": {
           "text": "Vanishing Bug",
-          "description": "{Vanishing Bug}\n\nWhen turned {WŁ}, the random upgraded stack of wandering monsters will no longer be deducted from total number of creatures if the hero retreats."
+          "description": "{Vanishing Bug}\n\nOpcja ustawiona na {WŁ}, the random upgraded stack of wandering monsters will no longer be deducted from total number of creatures if the hero retreats."
         },
         "fix_incorrect_obstacle_anchors": {
-          "text": "Anchor Bug",
-          "description": "{Anchor Bug}\n\nWhen turned {WŁ}, local battlefield obstacles do not prevent Firewall, Forcefield, Quicksand or Land Mine from being cast on some nearby tiles.\n{NOTE}: this option cannot be modified from within the battlefield."
+          "text": "Błąd Przeszkód",
+          "description": "{Błąd Przeszkód}\n\nOpcja ustawiona na {WŁ} powoduje, że domyślne przeszkody znajdujące się na polu bitwy nie przeszkadzają przed rzuceniem Ściany Ognia, Pola Siłowego, Ruchomych Piasków i Pola Minowego na niektórych pobliskich heksach.\n{UWAGA}: Ta opcja nie może być modyfikowana z poziomu pola bitwy."
         },
         "ai_fast_battle_bug": {
-	  "text": "AI Fast Battle Bugs",
-	  "description": "{AI Fast Battle Bugs}\n\nWhen turned {WŁ}, fixes errors in AI vs AI combat."
+	      "text": "Błedy Szybkiej Walki SI",
+	      "description": "{Błedy Szybkiej Walki SI}\n\nOpcja ustawiona na {WŁ}, naprawia błędy w walce SI kontra SI."
 	},
         "restore_naga_bank_sulfur": {
-          "text": "Naga Banks",
-          "description": "{Naga Banks}\n\nWhen turned {WŁ}, Naga banks will provide Sulfur instead of gems, reverting the '{HD+}' change.\n{NOTE}: you will only see the effects of this option after starting a new game."
+          "text": "Gniazdo Nag",
+          "description": "{Gniazdo Nag}\n\nOpcja ustawiona na {WŁ} powoduje, że Gniazdo Nag dostarczy Siarkę zamiast Klejnotów, cofając zmiane '{HD+}'.\n{UWAGA}: Efekty tej opcji będą widoczne dopiero po rozpoczęciu nowej gry."
         },
         "correct_hero_hireability": {
-          "text": "Tavern Heroes",
-          "description": "{Tavern Heroes}\n\nWhen turned {WŁ}, Heroes that are not marked as 'Can be hired by' Player X will no longer be available in the Tavern as intended by the mapmaker, upon death or dismissal.\n{NOTE}: in order to see the effects, this setting must be turned off when the bug is activated."
+          "text": "Bohaterowie Karczmy",
+          "description": "{Bohaterowie Karczmy}\n\nOpcja ustawiona na {WŁ} powoduje, że Bohaterowie, którzy nie są oznaczeni jako 'Może go wynająć' Gracz X nie będą już dostępni w Karczmie zgodnie z zamysłem twórcy map, po opuszczeniu lub zwolnieniu.\n{UWAGA}: Aby zobaczyć efekty działania 'Bohaterów Karczmy', to ustawienie 'Może go wynająć' musi zostać odpowiednio wyłączone."
         },
         "correct_quick_combat_power_overflow": {
-          "text": "Quick Combat Overflow",
-          "description": "{Quick Combat Overflow}\n\nWhen turned {WŁ}, the total power and damage dealt in AI-AI quick combat will not be permitted to overflow into negative values."
+            "text": "Przekroczenie w Szybkiej Walce",
+            "description": "{Przekroczenie w Szybkiej Walce}\n\nOpcja ustawiona na {WŁ} powoduje, że całkowita moc i obrażenia zadane w szybkiej walce SI kontra SI nie będą mogły przekroczyć wartości ujemnych."
         },
         "ai_necromancy_fix": {
-          "text": "AI Necromancy",
-          "description": "{AI Necromancy}\n\nWhen turned {WŁ}, AI heroes with Necromancy will raise the appropriate number of creatures instead of a single creature."
+          "text": "Nekromancja SI",
+          "description": "{Nekromancja SI}\n\nOpcja ustawiona na {WŁ}, AI heroes with Necromancy will raise the appropriate number of creatures instead of a single creature."
         },
         "prevent_hero_fusion": {
           "text": "Hero Fusion",
-          "description": "{Hero Fusion}\n\nWhen turned {WŁ}, heroes are no longer allowed to occupy the same map tile - disabling trading between them and creating copies of items."
+          "description": "{Hero Fusion}\n\nOpcja ustawiona na {WŁ}, heroes are no longer allowed to occupy the same map tile - disabling trading between them and creating copies of items."
         },
         "ai_magic_mirror_fix": {
-          "text": "AI Magic Mirror",
-          "description": "{AI Magic Mirror}\n\nWhen turned {WŁ}, offensive spells cast by enemy heroes may be reflected at their own troops if the original target is under the effects of the {Magic Mirror} spell."
+          "text": "Magiczne Zwierciadło SI",
+          "description": "{Magiczne Zwierciadło SI}\n\nOpcja ustawiona na {WŁ} powoduje, że zaklęcia ofensywne rzucane przez wrogich bohaterów mogą odbijać się na ich własne wojska, jeśli pierwotny cel znajduje się pod wpływem zaklęcia {Magiczne Zwierciadło}."
         },
         "enchanters_spellcast_fix": {
-          "text": "Enchanters Cast Bug",
-          "description": "{Enchanters Cast Bug}\n\nWhen turned {WŁ}, Enchanters will correctly consider all valid targets instead of only the first stack on each side of the battlefield; this could result in enchanters not casting otherwise valid spells."
+          "text": "Błąd Czarodzieja",
+          "description": "{Błąd Czarodzieja}\n\nOpcja ustawiona na {WŁ} powoduje, że Czarodzieje prawidłowo rozważą wszystkie poprawne cele zamiast tylko pierwszego oddziału po każdej stronie pola bitwy; może to spowodować, że Czarodzieje nie będą mogli inaczej rzucać ważnych zaklęć."
         }
       }
     }
