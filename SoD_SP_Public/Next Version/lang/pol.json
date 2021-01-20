@@ -6,7 +6,7 @@
       "prison_fusion": "{Hero Fusion} jest wyłączony.\nPlease move off the Prison and try again.",
       "save_confirmation": "{~Highlight}Zapisano przy pomocy Szybkiego Zapisu!}",
       "custom_save_abbreviation": "Szybki",
-      "custom_abbreviation_text": "Wprowadź wartość w przedziale {od 1 do 15}, aby ustawić własną nazwę dla Szybkiego Zapisu."
+      "custom_abbreviation_text": "Wprowadź własną nazwę w przedziale {od 1 do 15} znaków dla Szybkiego Zapisu."
     },
     "color": {
       "dialog_title": {
@@ -31,7 +31,7 @@
       },
       "move_sequence_hint_color": {
         "text": "Sekwencja ruchu",
-        "description": "{Sekwencja ruchu}\n\nThe color used in the battlefield status bar to indicate the move order of the creature under the mouse cursor."
+        "description": "{Sekwencja ruchu}\n\nKolor używany na dolnej belce (w nawiasach kwadratowych) podczas walki do wskazania kolejności ruchu stworzenia pod kursorem myszy."
       },
       "battle_coordinates_hint_color": {
         "text": "Współrzędne heksa bitwy",
@@ -62,12 +62,12 @@
       "target_hex": "Cel Szybkiego Zaklęcia {%d} przypisany do {%c%d}.",
       "no_spell": "Nie posiadasz zaklęcia {%s}.",
       "new_creature": "Stworzenie zostało wskrzeszone...\nCzy chcesz przypisać je jako Cel Szybkiego Zaklęcia {%d}?",
-      "set_quickspell": "Cel Szybkiego Zaklęcia {%d} przypisane do {%s}.\nCzy chcesz utrzymać Cel Szybkiego Zaklęcia {%d}?",
+      "set_quickspell": "Cel Szybkiego Zaklęcia przypisany do {%d} dla {%s}.\nCzy chcesz utrzymać Cel Szybkiego Zaklęcia {%d}?",
       "list_spells_title": "Lista Szybkich Zaklęć",
-      "reset_hint": "Reset Quick Spell {\"%d\"} target",
-      "reset_target_text": "Left-click to reset Quick Spell {\"%d\"} target.",
-      "reset_confirmation": "Are you sure you want to reset Quick Spell {\"%d\"} target?",
-      "select_new_quickspell": "Left-click to select another Quick Spell."
+      "reset_hint": "Zresetuj cel {\"%d\"} dla Szybkiego Zaklęcia.",
+      "reset_target_text": "Kliknij lewym przyciskiem myszy, aby zresetować cel {\"%d\"} dla Szybkiego Zaklęcia.",
+      "reset_confirmation": "Czy na pewno chcesz zresetować cel {\"%d\"} dla Szybkiego Zaklęcia?",
+      "select_new_quickspell": "Kliknij lewym przyciskiem myszy, aby wybrać inne Szybkie Zaklęcie."
     },
     "find_me": {
       "search_in_shroud_text": "When turned {WŁ}, FindMe will find and reveal items that are hidden in the shroud.\nWhen turned {WYŁ}, FindMe will only find and reveal items that you can already see.",
@@ -165,7 +165,7 @@
         },
         "show_creature_move_sequence_hint": {
           "text": "Kolejność ruchu",
-          "description": "{Kolejność ruchu}\n\nOpcja ustawiona na {WŁ} podczas walki pokazuje kolejność ruchu stworzenia na dolnej belce w nawiasach kwadratowych []."
+          "description": "{Kolejność ruchu}\n\nOpcja ustawiona na {WŁ} podczas walki pokazuje kolejność ruchu stworzenia na dolnej belce w nawiasach kwadratowych."
         },
         "enable_turbo_speed": {
           "text": "Prędkość 'Turbo'",
@@ -221,7 +221,7 @@
         },
         "show_ai_movement_on_minimap": {
           "text": "Minimapa SI",
-          "description": "{Minimapa SI}\n\nOpcja ustawiona na {WŁ} powoduje, że zobaczymy gdzie poruszają się bohaterowie SI na minimapie zamiast na tarczy."
+          "description": "{Minimapa SI}\n\nOpcja ustawiona na {WŁ} powoduje, że zobaczymy gdzie poruszają się Bohaterowie SI (Sztucznej Inteligencji) na minimapie zamiast na tarczy."
         },
         "correct_vanishing_upgraded_stack": {
           "text": "Vanishing Bug",
@@ -249,7 +249,7 @@
         },
         "ai_necromancy_fix": {
           "text": "Nekromancja SI",
-          "description": "{Nekromancja SI}\n\nOpcja ustawiona na {WŁ}, AI heroes with Necromancy will raise the appropriate number of creatures instead of a single creature."
+          "description": "{Nekromancja SI}\n\nOpcja ustawiona na {WŁ} powoduje, że Bohaterowie SI (Sztucznej Inteligencji) z Nekromancją wzrośnie o odpowiednią liczbę stworzeń zamiast jednego stworzenia."
         },
         "prevent_hero_fusion": {
           "text": "Hero Fusion",
