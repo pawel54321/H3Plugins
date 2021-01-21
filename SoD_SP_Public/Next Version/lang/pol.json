@@ -1,10 +1,10 @@
 {
-    "_comment": "prison_fusion?",
+    "_comment": "prison_fusion no tested",
     "general": {
         "movement": "Koszt Ruchu: {%d}",
         "multiplayer_disabled": "{Tryb Wieloosobowy jest wyłączony}\n\nAby go włączyć musisz {~Cyan}usunąć SoD_SP} z listy aktywnych modyfikacji.",
         "new_version": "Dostępna jest {~H3Cyan}Nowa Wersja SoD_SP}:\n{~H3Green}%s}\nAktualnie używasz wersji:\n{~H3Red}%s}\n\nCzy chcesz przejść do strony pobierania?",
-        "prison_fusion": "{Połączenie Bohaterów} jest wyłączone.\nPlease move off the Prison and try again.",
+        "prison_fusion": "{Połączenie Bohaterów} jest wyłączone.\nOpuść Więzienie i spróbuj ponownie.",
         "save_confirmation": "{~Highlight}Zapisano przy pomocy Szybkiego Zapisu!}",
         "custom_save_abbreviation": "Szybki",
         "custom_abbreviation_text": "Wprowadź własną nazwę w przedziale {od 1 do 15} znaków dla Szybkiego Zapisu."
@@ -40,7 +40,7 @@
         },
         "color_type_modified": "Kolor dla opcji \n{%s}\nzostał pomyślnie ustawiony na:\n{~%s}%s}"
     },
-    "_comment": "delete space kill_range and color font, battlequeue_top_turret, battlequeue_mid_turret, battlequeue_bot_turret - other resolution?",
+    "_comment": "delete two space and color font for kill_range (no corectly convention for all text, examples: 'kill - '0 | 'kill - 0-3) | battlequeue_top_turret, battlequeue_mid_turret, battlequeue_bot_turret - short, but other resolution?",
     "combat": {
         "kill_verb": "zabija -",
         "damage_noun": "obrażenia",
@@ -59,7 +59,7 @@
         "battlequeue_mid_turret": "Środkowa",
         "battlequeue_bot_turret": "Dolna"
     },
-    "_comment": "No test all",
+    "_comment": "No tested all",
     "quickspell": {
         "target_creature": "Cel Szybkiego Zaklęcia {%d} przypisany do {%s} na {%c%d}.",
         "target_hex": "Cel Szybkiego Zaklęcia {%d} przypisany do {%c%d}.",
@@ -77,11 +77,11 @@
         "search_in_shroud_text": "Opcja 'Znajdź dla Mnie' ustawiona na {WŁ} powoduje, że znajdzie i pokaże obiekty, które zostały ukryte na Niezbadanym Terenie (użyj strzałek do poruszania się pomiędzy ukrytymi obiektami).\nZaś dla opcji {WYŁ}, znajdzie i pokaże tylko te elementy, które są już widoczne.",
         "search_in_shroud_hint": "Włącz, aby znaleźć i odkryć przedmioty na Niezbadanym Terenie.",
         "item_general_hint": "Kliknij lewym przyciskiem myszy, aby znaleźć ten obiekt.",
-        "stop_display": "Zatrzymano wyświetlanie elementów.",
+        "stop_display": "Zatrzymano wyświetlanie obiektów.",
         "toggle_event_display": "Kliknij, aby przełączyć widoczność Zdarzeń na Mapie Przygody.",
         "found_items_text": "Znaleziono obiekt %d w liczbie %s."
     },
-    "_comment": "Polish endings",
+    "_comment": "Polish endings characters - possible bug",
     "spells": {
         "elementals": "\nPrzywołuje %d Żywiołaków.",
         "cure": "\nLeczy %d punktów życia.",
