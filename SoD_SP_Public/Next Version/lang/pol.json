@@ -44,9 +44,9 @@
     },
     "combat": {
         "kill_verb": "zabici -",
-        "damage_noun": "obrażenia",
-        "resurrected_hit_points": "- wyleczone punkty życia",
-        "resurrection_verb": "wskrzesza",
+        "damage_noun": "- obrażenia",
+        "resurrected_hit_points": "- wyleczone pkt. życia",
+        "resurrection_verb": "wskrzesza -",
         "hit_points": "pż",
         "kill_range": "-",
         "active_creature": "Aktywny",
